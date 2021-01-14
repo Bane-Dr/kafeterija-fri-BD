@@ -9,9 +9,9 @@ body {
   overflow-x: hidden;
 }
 :root {
-  --clr-primary: #ebc012d0;
-  --clr-primary-dark: #3a4d06;
-  --clr-primary-light: #cf9661;
+  --clr-primary: #678e3e;
+  --clr-primary-dark: #245212;
+  --clr-primary-light: #ade671;
   --clr-grey-1: #102a42;
   --clr-grey-5: #797676;
   --clr-grey-3: #cbccce;
