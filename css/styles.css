@@ -284,7 +284,7 @@ p {
 .skill:hover {
   background-color: var(--clr-grey-5);
   transition: var(--transition);
-  border-bottom: solid 2px var(--clr-primary);
+  border-bottom: solid 4px var(--clr-primary);
 }
 .skill-icon {
   margin-top: 50px;
@@ -292,8 +292,9 @@ p {
   margin-bottom: 5px;
   color: var(--clr-primary);
 }
-.skill:hover .skill-icon {
-  transform: translateY(-15px);
+.skill:hover .fas {
+  transform: translateY(-5px);
+  transition: var(--transition);
 }
 @media screen and (max-width: 576px) {
   .skill {
